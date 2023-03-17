@@ -1,0 +1,114 @@
+body{
+    background-color:#5781cf;
+    color:#fff;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:32px;
+}
+.contenedor{
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+  
+}
+.operaciones{
+    display:flex;
+    align-items:center;
+    flex-direction:row;
+    gap: 5px;
+}
+h1{
+    color:rgb(255, 255, 255);
+    font-size:25px;
+    text-align: center;
+}
+.grupo{
+    display:flex;
+    justify-content:flex-start;
+    gap:20px;
+    height:30px;
+    margin-bottom: 35px;
+    color: white;
+}
+.grupo label, button{
+    width:100%;
+    font-size:20px;
+    font-weight:bold;
+}
+.grupo button{
+   border-radius:10px;
+    margin:2px;
+    color:white;
+   
+    height:45px;
+    background-image: linear-gradient(to right top, #111439, #283394, #727f9f, #372a8a, #00182e);
+    cursor: pointer;
+    transition: .5s ease-in-out;  
+}
+.grupo input{
+  display:block;
+  border-radius: 7px;
+  font-size:25px;
+  padding: 25px;
+}
+#iva{
+   display:block;
+   margin-left: -330px;
+   width:40px 
+} 
+textarea{
+    margin-top:20px;
+    width:100%;
+    border-radius: 15px;
+    padding: 10px;
+    font-size:30px;
+    color:#000000;
+    font-weight:bold;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 0;left: 0;
+}
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+.container .btn-menu, .logo{
+    float: left;
+    line-height:100px;
+}
+.container .btn-menu label{
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+}
+.logo h1{
+    color: #fff;
+    font-weight: 400;
+    font-size: 25px;
+    margin-left: 15px;
+    text-align: justify;
+   
+}
+.container .menu{
+    float: right;
+    line-height: 100px;
+    
+}
+.container .menu a{
+    display: inline-block;
+    padding: 15px;
+    line-height: normal;
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.3s ease;
+    border-bottom: 2px solid transparent;
+    font-size: 20px;
+    margin-right: 5px;
+}
+.container .menu a:hover{
+    border-bottom: 2px solid #c7c7c7;
+    padding-bottom: 5px;
+}
